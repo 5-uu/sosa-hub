@@ -191,7 +191,7 @@ print("ALL GUNS UNLOCKED")
         return oldLoadgrenade(self, name, ...);
     end;
     game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "ALCATRAZ UI",
+    Title = "sosa hub",
     Text = "ALL GUNS ACTIVE", 
     Duration = 8
     })
