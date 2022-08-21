@@ -3,7 +3,7 @@ local script_details = {
     version = "1.0.0",
 }
 
-local url = script_details.debug and "http://localhost:6845" or "https://raw.githubusercontent.com/5-uu/sosa-hub/main"
+local url = script_details.debug and "http://localhost:6845" or "https://raw.githubusercontent.com/squan23/sosa-hub/main"
 
 local out = script_details.debug and function(T, ...)
     return warn("[sosa hub - DEBUG]: "..T:format(...))
